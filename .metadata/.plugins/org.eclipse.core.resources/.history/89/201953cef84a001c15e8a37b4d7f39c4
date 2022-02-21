@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Exercico30_4 {
+
+	public static void main(String[] args) {
+		
+		Scanner s = new Scanner(System.in);
+		
+		int idFuncionario = s.nextInt();
+		int horasTrabalhadas = s.nextInt();
+		
+		
+		
+		
+		
+		
+		s.close();
+
+	}
+
+}

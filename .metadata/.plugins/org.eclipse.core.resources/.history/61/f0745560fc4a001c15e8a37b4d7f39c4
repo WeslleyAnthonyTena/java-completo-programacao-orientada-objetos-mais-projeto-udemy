@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Exercicio30_5 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Digite o código, quantidade e valor do primeiro produto: ");
+		int codigo1 = sc.nextInt();
+		int qtd1 = sc.nextInt();
+		double valor1 = sc.nextInt();
+		
+		System.out.print("Digite o código, quantidade e valor do segundo produto: ");
+		int codigo2 = sc.nextInt();
+		int qtd2 = sc.nextInt();
+		double valor2 = sc.nextInt();
+		
+		
+		sc.close();
+
+	}
+
+}

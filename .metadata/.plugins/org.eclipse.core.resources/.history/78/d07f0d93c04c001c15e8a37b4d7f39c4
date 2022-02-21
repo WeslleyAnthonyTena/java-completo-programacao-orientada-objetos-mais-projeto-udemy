@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Exercicio37_4 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Hora inicial: ");
+		double horainicial = sc.nextDouble();
+		
+		System.out.println("Hora final: ");
+		double horafinal = sc.nextDouble();
+		
+		double duracaomin = 1;
+		double duracaomax = 24;
+		double duracao = horafinal - horainicial;
+		
+		if((duracaomin >=1) && (duracaomax <=24)) {
+			System.out.println("O jogo durou " + duracao);
+		}else {
+			System.out.println("Fora das regras");
+		}
+		
+		sc.close();
+	}
+
+}

@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Exercicio21Pontos {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int pontos = sc.nextInt();
+		
+		while(pontos >= 21) {
+			
+			pontos = sc.nextInt();
+			System.out.println("Reciclagem");
+		}
+		
+		
+		
+		sc.close();
+
+	}
+
+}

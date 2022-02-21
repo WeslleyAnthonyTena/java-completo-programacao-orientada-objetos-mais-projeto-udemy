@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Exercicio37_1 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite um número: ");
+		int numero = sc.nextInt();
+		
+		boolean par = numero >= 0;
+		
+		if(par) {
+			System.out.println("Número par");
+		}else {
+			System.out.println("Número ímpar");
+		}
+		
+		sc.close();
+
+	}
+
+}

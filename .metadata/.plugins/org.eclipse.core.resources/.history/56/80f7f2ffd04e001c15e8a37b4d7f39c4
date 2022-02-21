@@ -1,0 +1,50 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+//		
+//		String x;
+//		System.out.print("Digite seu nome: ");
+//		x = sc.nextLine();
+//		System.out.println("Seu nome é: " + x);
+//		sc.close();
+
+//		int numero;
+//		System.out.print("Digite um número: ");
+//		numero = sc.nextInt();
+//		System.out.println("O número é: " + numero);
+//		sc.close();
+		
+//		double z;
+//		System.out.print("Digite um número: ");
+//		z = sc.nextDouble();
+//		System.out.println("O número é: " + z);
+//		sc.close();
+		
+//		char a;
+//		System.out.print("Digite um número: ");
+//		a = sc.next().charAt(0);
+//		System.out.println("O número é: " + a);
+//		sc.close();
+		
+		String b;
+		int c;
+		double d;
+		System.out.println("Digite os dados: ");
+		b = sc.next();
+		c = sc.nextInt();
+		d = sc.nextDouble();
+		System.out.println("Dados digitados: ");
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(d);
+		sc.close();
+		
+	}
+
+}

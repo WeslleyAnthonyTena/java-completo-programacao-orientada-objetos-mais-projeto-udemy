@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Exercicio37_5 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Digite a primeira nota: ");
+		double priNota = sc.nextDouble();
+		
+		System.out.println("Digite a segunda nota: ");
+		double segNota = sc.nextDouble();
+		
+		System.out.println("Digite a terceira nota: ");
+		double terNota = sc.nextDouble();
+		
+		double media = (priNota + segNota + terNota) / 3;
+		
+		if(media >=60) {
+			System.out.printf("Parabéns Aprovado! Sua média é: %.0f%n", media);
+		}else {
+			System.out.printf("Reprovado! Sua média é: %.0f%n" + media);
+		}
+		
+	}
+
+}

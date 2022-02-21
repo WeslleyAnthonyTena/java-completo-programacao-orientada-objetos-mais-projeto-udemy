@@ -1,0 +1,20 @@
+package entities;
+
+public class Rectangle {
+	
+	public double largura;
+	public double altura;
+	
+	public double area() {
+		
+	}
+	
+	public double perimeter() {
+		
+	}
+	
+	public double diagonal() {
+		
+	}
+
+}

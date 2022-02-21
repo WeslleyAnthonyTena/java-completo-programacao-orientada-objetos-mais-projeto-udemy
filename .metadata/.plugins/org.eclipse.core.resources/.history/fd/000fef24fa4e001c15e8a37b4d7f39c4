@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Exercicio49_1 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite a senha: ");
+		int senha = sc.nextInt();
+		
+		String senhaCorreta = "w8603";
+		
+		while(senha!=senhaCorreta) {
+			System.out.println(senha);
+			String x = senha;
+			
+		}
+		
+		System.out.println("Senha correta" + senhaCorreta);
+		
+		sc.close();
+
+	}
+
+}

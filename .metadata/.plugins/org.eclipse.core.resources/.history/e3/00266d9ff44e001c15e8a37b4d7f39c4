@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite sua notas: ");
+		double nota1 = sc.nextDouble();
+		double nota2 = sc.nextDouble();
+		double nota3 = sc.nextDouble();
+		
+		double media = (nota1 + nota2 + nota3) / 3;
+		
+		if(media >= 60) {
+			System.out.println("Parabéns! Você foi aprovado" + media);
+		}else {
+			System.out.println("Que burro, reprovou" + media);
+		}
+				
+		sc.close();
+		
+		}
+		
+
+	}
+

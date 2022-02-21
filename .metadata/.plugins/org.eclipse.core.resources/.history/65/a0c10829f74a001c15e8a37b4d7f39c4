@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Exercicio30_3 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Digite os quatro valores: ");
+		int A = sc.nextInt();
+		int B = sc.nextInt();
+		int C = sc.nextInt();
+		
+		
+		
+		sc.close();
+	}
+
+}

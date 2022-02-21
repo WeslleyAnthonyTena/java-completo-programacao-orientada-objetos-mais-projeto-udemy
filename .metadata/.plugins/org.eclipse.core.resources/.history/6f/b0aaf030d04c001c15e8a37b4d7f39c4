@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Exercicio37_5 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Código: ");
+		double cod = sc.nextDouble();
+		
+		System.out.println("Quantidade: ");
+		double qtd = sc.nextDouble();
+		
+		double valorcompra = cod * qtd;
+		
+		System.out.println("Valor compra: " + valorcompra);
+		
+//		if(media >=60) {
+//			System.out.printf("Parabéns Aprovado! Sua média é: %.0f%n", media);
+//		}else {
+//			System.out.printf("Reprovado! Sua média é: %.0f%n", media);
+//		}
+		
+	}
+
+}

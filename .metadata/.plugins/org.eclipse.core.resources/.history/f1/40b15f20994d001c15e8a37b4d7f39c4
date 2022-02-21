@@ -1,0 +1,32 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Exercicio37_8 {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Salário: ");
+		double salario = sc.nextDouble();
+		
+		double imposto8 = salario*0.08;
+		double imposto18 = salario*0.18;
+		double imposto28 = salario*0.28;
+		
+		if(salario>=2000.01 && salario<=3000.00) {
+			System.out.println(salario + imposto8);
+		}else if(salario>=3000.01 && salario<=4500.00) {
+			System.out.println(salario + imposto18);
+		}else if(salario>4500.00) {
+			System.out.println(salario + imposto28);
+		}else {
+			System.out.println("Isento");
+		}
+		
+		
+		sc.close();
+	}
+
+}

@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class Exercico49_3 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int alcool = 0;
+		int gasolina = 0;
+		int diesel = 0;
+		
+		int produto = sc.nextInt();
+		
+		while(produto!=4) {
+			if(produto==1) {
+				System.out.println("Álcool");
+			}else if(produto==2) {
+				System.out.println("Gasolina");
+			}else if(produto==3) {
+				System.out.println("Diesel");
+			}else {
+				System.out.println();
+			}
+			
+			System.out.println("Muito obrigado!");
+		}
+		
+		
+		
+		sc.close();
+
+	}
+
+}

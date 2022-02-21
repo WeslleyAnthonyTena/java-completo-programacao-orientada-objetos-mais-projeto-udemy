@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Exercico30_4 {
+
+	public static void main(String[] args) {
+		
+		Scanner s = new Scanner(System.in);
+		
+		System.out.print("Digite seu id: ");
+		int idFuncionario = s.nextInt();
+		System.out.print("Digite as horas trabalhadas: ");
+		int horasTrabalhadas = s.nextInt();
+		System.out.print("Digite o valor por hora trabalhada: ");
+		double valorPorHora = s.nextDouble();
+		System.out.println("");
+		
+		double salario = horasTrabalhadas * valorPorHora;
+		
+		System.out.print("Seu id é: %n" + idFuncionario);
+		System.out.printf("Seu salário é %.2f", salario);
+		
+		
+		
+		
+		
+		s.close();
+
+	}
+
+}
